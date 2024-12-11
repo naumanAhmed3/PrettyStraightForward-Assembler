@@ -1,0 +1,7 @@
+addi $t1, $t2, 5
+xor $t3, $t2, $t1
+andi $t4, $t3, 3
+beq $t2, $t4, label6
+label6:
+sw $t5, 20($t1)
+j label6

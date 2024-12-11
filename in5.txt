@@ -1,0 +1,7 @@
+addi $t2, $t3, 12
+lw $t4, 16($t5)
+or $t5, $t2, $t6
+j label5
+label5:
+slt $t1, $t5, $t6
+sw $t3, 0($t2)

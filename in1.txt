@@ -1,0 +1,6 @@
+addi $t1, $t2, 10
+add $t3, $t1, $t2
+beq $t1, $t3, label1
+j label1
+label1:
+andi $t4, $t3, 5

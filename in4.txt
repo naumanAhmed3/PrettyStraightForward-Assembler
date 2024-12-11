@@ -1,0 +1,8 @@
+lw $t1, 4($t2)
+add $t3, $t1, $t2
+andi $t4, $t3, 2
+j label4
+label4:
+beq $t1, $t4, end
+end:
+sw $t5, 8($t6)

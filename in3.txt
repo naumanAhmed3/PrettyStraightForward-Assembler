@@ -1,0 +1,6 @@
+add $t1, $t2, $t3
+beq $t2, $t4, label3
+slt $t6, $t2, $t3
+xor $t3, $t2, $t5
+label3:
+sw $t6, 0($t2)
