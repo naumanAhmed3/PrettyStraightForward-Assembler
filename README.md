@@ -13,3 +13,6 @@ This is a simple Python-based assembler that converts assembly code into machine
 - Modular structure for ease of understanding and potential extension
 - Easy to use and customize for educational or experimental purposes
 
+### Getting started 
+- Compile the main2.c and run the executable with with one of the provided text files in the command line argument.
+
